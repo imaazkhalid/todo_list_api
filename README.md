@@ -85,8 +85,8 @@ Follow these instructions to set up and run the project locally.
 
 First, clone the repository to your local machine:
 ```bash
-git clone [https://github.com/imaazkhalid/todo_list_api.git](https://github.com/imaazkhalid/todo_list_api.git)
-cd your-repository-name
+git clone https://github.com/imaazkhalid/todo_list_api.git
+cd todo_list_api
 ````
 
 ### 2\. Configure Environment Variables
@@ -224,7 +224,7 @@ Creates a new to-do item.
   * **Path:** `/todos`
   * **Headers:**
       * `Content-Type: application/json`
-  * **Request Body:** `CreateTodo` payload (see [Data Models](https://www.google.com/search?q=%23createtodo-payload))
+  * **Request Body:** `CreateTodo` payload.
     ```json
     {
       "title": "Plan Weekend Trip",
@@ -319,7 +319,7 @@ Updates an existing to-do item. Only the fields provided in the JSON request bod
       * `{id}`: The UUID of the to-do item to update.
   * **Headers:**
       * `Content-Type: application/json`
-  * **Request Body:** `UpdateTodo` payload (see [Data Models](https://www.google.com/search?q=%23updatetodo-payload)).
+  * **Request Body:** `UpdateTodo` payload.
     Example updating title and completion status:
     ```json
     {
