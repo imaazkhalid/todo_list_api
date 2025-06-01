@@ -69,7 +69,7 @@ Before you begin, ensure you have the following installed on your system:
 * **Rust Toolchain:**
     * You can install Rust via [rustup.rs](https://rustup.rs/). A recent stable version is recommended.
         ```bash
-        curl --proto '=https' --tlsv1.2 -sSf [https://sh.rustup.rs](https://sh.rustup.rs) | sh
+        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
         source $HOME/.cargo/env # Or restart your terminal
         ```
     * Verify your installation: `rustc --version` and `cargo --version`.
